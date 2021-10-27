@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Myfirst login form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  </head>
+  <body background="my.jpg">
+    <script src="script.js"></script>
+    <style src="style.css"></style>
+    <form action="/action_page.php">
+ 
+      <h1>Login Form</h1> <div class="formcontainer"> <hr/>
+      <div class="container">
+        <label for="username"><strong>Username</strong></label>
+        <input style="border-radius: 5px;" style="padding: 10px 10px 10px 10px;" type="text" placeholder="Enter Username" name="username" required>
+        <label for="password"><strong>Password</strong></label>
+        <br>
+        <input  style="border-radius: 5px;" style="padding: 10px 10px 10px 10px;" type="password" placeholder="Enter Password" name="password" required>
+        
+      </div>
+      <button type="submit">Login</button>
+      <div class="containerr" style="background-color: #eee">
+        <label style="padding-left: 15px">
+        <input type="checkbox"  checked="checked" name="remember"> Remember me
+        </label>
+        <span class="password"><a href="#"> Forgot password?</a></span>
+      </div>
+    </form>
+    
+  </body>
+</html>
